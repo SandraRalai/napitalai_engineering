@@ -19,14 +19,14 @@
   $contact->subject = $_POST['subject'];
 
   
-  
+  /*
   $contact->smtp = array(
     'host' => 'https://ralikumx.raliku.com',
     'username' => 'help@napitalai.com.pg',
     'password' => 'help@RNL*24',
     'port' => '465'
   );
-  
+  */
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
