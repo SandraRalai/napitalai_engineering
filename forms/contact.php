@@ -21,7 +21,7 @@
     'host' => 'https://ralikumx.raliku.com',
     'username' => 'help@napitalai.com.pg',
     'password' => 'help@RNL*24',
-    'port' => '465'
+    'port' => '25'
   );
  
 
