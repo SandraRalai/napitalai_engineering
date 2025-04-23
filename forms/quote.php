@@ -19,14 +19,13 @@
   $contact->subject = 'Request for a quote';
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
+  
   $contact->smtp = array(
     'host' => 'https://ralikumx.raliku.com',
     'username' => 'help@napitalai.com.pg',
     'password' => 'help@RNL*24',
     'port' => '25'
   );
-*/
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
